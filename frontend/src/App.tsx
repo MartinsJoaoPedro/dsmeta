@@ -2,9 +2,14 @@
 //import reactLogo from './assets/react.svg'
 //import './App.css'
 
+import NotificationButton from "./components/notificationButton"
+
 function App() {
-  return(
-    <h1>olá mundo</h1>
+  return (
+    <>
+      <h1>Olá Mundo</h1>
+      <NotificationButton />
+    </>
   )
 }
 
