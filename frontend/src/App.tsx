@@ -1,14 +1,23 @@
 //import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 //import './App.css'
+//<SalesCard/>
 
 import NotificationButton from "./components/notificationButton"
+import Header from "./components/notificationButton/Header"
+import SalesCard from "./components/SalesCard"
 
 function App() {
   return (
     <>
-      <h1>Olá Mundo</h1>
-      <NotificationButton />
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
     </>
   )
 }
